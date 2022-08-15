@@ -1,0 +1,40 @@
+p {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;  
+  column-gap: 12px;
+  flex: 1 0 auto;
+}
+
+.header-text-image {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.header-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
