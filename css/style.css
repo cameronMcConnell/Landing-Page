@@ -5,11 +5,14 @@ p {
 .header {
   display: flex;
   flex-direction: column;
+  color: #F9FAF8;
+  background-color: #1F2937;
 }
 
 .logo-links {
   display: flex;
   flex-direction: row;
+  margin: 5px 0px 5px 100px;
 }
 
 .links {
@@ -20,21 +23,29 @@ p {
   margin: 0;  
   column-gap: 12px;
   flex: 1 0 auto;
+  align-items: center;
+  margin-right: 100px;
 }
 
 .header-text-image {
   display: flex;
   flex-flow: row wrap;
+  margin: 80px 100px;
+  height: 160px;
 }
 
 .header-text {
   display: flex;
-  flex-direction: column;
-  flex: 1 0 auto;
+  flex-flow: column wrap;
+  flex: 0 1 450px;
+  row-gap: 5px;
 }
 
 .header-image {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 400px;
+  flex: 1 0 auto;
+  margin-left: 95px;
 }
